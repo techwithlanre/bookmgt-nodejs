@@ -22,7 +22,8 @@ module.exports = {
             books.length + 1,
             bookData.title,
             bookData.author,
-            bookData.year
+            bookData.year,
+            bookData.price
         );
         books.push(newBook);
         return newBook;
